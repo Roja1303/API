@@ -12,7 +12,7 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()  # This should work now
 
-# Define the database model
+# Define the database  models
 class ItemDB(Base):
     __tablename__ = "items"
 
